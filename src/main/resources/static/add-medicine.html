@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Medicine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="add-medicine-container">
+        <h2>Pharmacy Management System</h2>
+        <hr>
+        <p class="error"></p>
+        <p class="success"></p>
+        <input class="form" type="text" placeholder="name" id="name" name="name" minlength="4" maxlength="16" required><br>
+        <input class="form" type="number" placeholder="code" id="code" name="code" minlength="5" maxlength="5" required><br>
+        <input class="form" type="number" placeholder="price" id="price" name="price" minlength="0" maxlength="10" required><br>
+        <textarea class="form" placeholder="description" id="description" required></textarea><br>
+        <button class="form-btn" type="submit" id="sub-btn">Submit</button>
+        <button class="form-btn" type="submit" id="back-btn">Back</button>
+    </div>
+
+    <script src="js/add-medicine.js"></script>
+</body>
+</html>

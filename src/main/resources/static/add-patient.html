@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Patinet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="add-patient-container">
+        <h1>Pharmacy Management System</h1><br>
+        <hr>
+        <input class="form" type="text" placeholder="First Name" id="firstName" name="firstName" minlength="2" maxlength="20" required><br>
+        <input class="form" type="text" placeholder="Last Name" id="lastName" name="lastName" minlength="2" maxlength="20" required><br>
+        <div id="radio">
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+        </div>
+
+        <hr>
+
+        <h2>Add Prescription</h2>
+        <hr>
+
+        <h3>You Need To Add At Least One Prescription<button data- id="add_prescription" type="button">+</button></h3>
+
+        <div id="prescription">
+            <div class="added" id="added_1">
+                <input class="form" type="number" id="code" name="code" placeholder="code" required>
+                <input class="form" type="date" id="creationDate" name="creationDate" placeholder="Creation Date" required>
+                <input class="form" type="date" id="visitDate" name="visitDate" placeholder="Visit Date" required>
+            </div>
+        </div>
+
+        <button type="submit" id="sub-btn">Submit</button>
+        <button type="submit" id="back-btn">Cancel</button>
+        <p class="error"></p>
+    </div>
+
+    <script src="js/add-patient.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+    box-sizing: border-box;
+    margin: auto;
+    font-family: "Microsoft Sans Serif";
+    font-size: large;
+}
+
+.add-medicine-container{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.form {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    color: black;
+    -moz-appearance: textfield;
+}
+
+.form-btn {
+    margin: 10px;
+    padding: 10px;
+    width: 90px;
+    color: black;
+}
+
+.error {
+    color: red;
+}
+
+.medicine-list-container {
+    margin: auto;
+    padding: 10px;
+    width: 1000px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+table , thead , tbody , tr , th{
+    margin: auto;
+    padding: 20px;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+thead {
+    background-color: #f8f8f8;
+}
+
+.update-medicine-container {
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.index-container {
+    margin: auto;
+    padding: 10px;
+    width: 650px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
+}
+.sub {
+    width: 250px;
+    height: 50px;
+    background-color: #e3ecec;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px black solid;
+}
+
+.add-patient-container {
+    margin: auto;
+    padding: 10px;
+    width: 1100px;
+    text-align: center;
+    border: 1px black solid;
+}
+.box , .prescription{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    color: black;
+    -moz-appearance: textfield;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#radio {
+    margin: 10px;
+}
+
+.patient-list-container {
+    margin: auto;
+    padding: 10px;
+    width: 1100px;
+    text-align: center;
+    border: 1px black solid;
+}
